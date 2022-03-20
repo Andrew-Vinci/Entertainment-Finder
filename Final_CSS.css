@@ -1,0 +1,255 @@
+/*
+CSS for the Homepage
+*/
+#homeButton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+}
+#tvButton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+}
+#actorButton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+}
+#scheduleButton{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px; 
+}
+
+
+/*
+This is the CSS for the T.V. show search page/general CSS that every page uses
+*/
+
+li{
+    font-size:20px;
+    font-family: "lucida console";
+}
+body{
+    background-color: steelblue;
+}
+h1{
+    font-size: 50px;
+    font-family: "Brush Script MT";
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    font-size: 30px;
+    font-family: "Brush Script MT";
+    text-align: left;
+    text-decoration: underline;
+}
+#showText{
+    font-size: 20px;
+    font-family: "lucida handwriting";
+    text-decoration: underline;
+}
+#genre{
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+    text-decoration: underline;
+}
+#rating{
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+    text-decoration: underline;
+}
+#premiered{
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: "Brush Script MT";
+}
+#desc{
+    font-size: 20px;
+    font-style: bold;
+}
+#submit {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+  #refresh {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.4s;
+  }
+  #homeAccess{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  #pageAccess{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  #page1Access{
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+  #page2Access{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+
+  /*
+  CSS for the Actor/Actresses Search Page
+  */
+
+#person{
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+    text-decoration: underline;
+}
+#gender{
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+    text-decoration: underline;
+}
+#birthday{
+    font-size: 20px;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: "Brush Script MT";
+}
+#country{
+    font-size: 40px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+}
+
+
+/*
+CSS for the T.V. Show Search Schedule Page
+*/
+
+#name{
+    font-size: 50px;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: "Brush Script MT";
+}
+#network{
+    font-size: 40px;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: "Times New Roman";
+}
+#run{
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+    text-decoration: underline;
+}
+#days{
+    font-size: 50px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+    text-decoration: underline;
+}
+#time{
+    font-size: 30px;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: "Brush Script MT";
+}
+#status{
+    font-size: 40px;
+    font-style: bold;
+    font-family: "Brush Script MT";
+}
+#imdb{
+    font-size: 40px;
+    font-style: bold;
+    text-decoration: underline;
+    font-family: "Times New Roman";
+}
+
+
+

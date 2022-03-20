@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search for Actors/Acrresses</title>
+    <script type = "text/javascript" src = "Page_1_Java.js"></script>
+    <link rel = "stylesheet" href = "Final_CSS.css">
+</head>
+<body>
+
+    <h1>Actors and Actresses Information</h1>
+
+    <nav>
+        <a id = "homeAccess"  href = "Home_Page.html">Home Page</a>
+        <a id = "pageAccess"  href = "Page.html">T.V. Shows</a>
+        <a id = "page1Access" href = "Page_1.html">Actors/Actress</a>
+        <a id = "page2Access" href = "Page_2.html">Schedule</a>
+    </nav>
+
+    <p>
+        <p id = "showText">Search for Actor/Actress by Name: </p>
+        <input id = "show"></input>
+        <p></p>
+</br>
+    <button id = "submit" onclick = actorLookUp() value = "Show Images">Submit</button>
+    <button id = "refresh" onclick = refreshPage()>Refresh Page</button>
+<html>
+    <ol>
+        <li>Person: <span id = "person"></span></li>
+            <p></p>
+        <li>Gender: <span id = "gender"></span></li>
+            <p></p>
+        <li>Birthday: <span id = "birthday"></span></li>
+            <p></p>
+        <li>Country of Origin: <span id = "country"></span></li>
+    </ol>
+</html>
+</br>
+    </p>
+    
+    
+</body>
+</html>
